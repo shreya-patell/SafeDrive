@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "346527160092",
+    "project_id": "safe-drive-17a0d",
+    "storage_bucket": "safe-drive-17a0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346527160092:android:ced6e216faa6fbde7d4cd9",
+        "android_client_info": {
+          "package_name": "com.example.safedrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346527160092-e3vktb7ks6k000csl6odcscuj2cebv6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safedrive",
+            "certificate_hash": "d5aacb1d2d6750f0bd1d81635ddad69d815ba839"
+          }
+        },
+        {
+          "client_id": "346527160092-tv2n58j6mkekrihi1276ds3un4vbe465.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbS2Mm5ZO4oURJ3R5RKFKekOz5Df2B7mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346527160092-tv2n58j6mkekrihi1276ds3un4vbe465.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

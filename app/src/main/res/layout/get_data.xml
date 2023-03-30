@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_angry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anger Detection:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_angry_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_drowsy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drowsiness Detection:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_drowsy_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_happy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happiness Detection:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_happy_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_neutral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neutral Detection:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_neutral_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_surprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surprise Detection:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_surprise_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:paddingBottom="10dp" />
+
+</LinearLayout>
