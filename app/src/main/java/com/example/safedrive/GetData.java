@@ -47,11 +47,11 @@ public class GetData extends AppCompatActivity {
 
                             double sum = angry + drowsy + happy + neutral + surprise;
 
-                            tvAngryData.setText(String.format("%d (%.2f%%)", (int)angry, angry/sum * 100));
-                            tvDrowsyData.setText(String.format("%d (%.2f%%)", (int)drowsy, drowsy/sum * 100));
-                            tvHappyData.setText(String.format("%d (%.2f%%)", (int)happy, happy/sum * 100));
-                            tvNeutralData.setText(String.format("%d (%.2f%%)", (int)neutral, neutral/sum * 100));
-                            tvSurpriseData.setText(String.format("%d (%.2f%%)", (int)surprise, surprise/sum * 100));
+                            tvAngryData.setText(String.format("%.2f%%", angry/sum * 100));
+                            tvDrowsyData.setText(String.format("%.2f%%", drowsy/sum * 100));
+                            tvHappyData.setText(String.format("%.2f%%", happy/sum * 100));
+                            tvNeutralData.setText(String.format("%.2f%%", neutral/sum * 100));
+                            tvSurpriseData.setText(String.format("%.2f%%", surprise/sum * 100));
 
                         } else {
                             Toast.makeText(GetData.this, "Document not found", Toast.LENGTH_SHORT).show();
